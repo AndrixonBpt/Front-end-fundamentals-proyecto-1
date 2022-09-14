@@ -1,0 +1,300 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+div.principal2 {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue ; */
+    animation: desaparecer;
+    animation-duration: 0.1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+div.principal {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: desaparecer;
+    animation-duration: 0.1s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+    animation-direction:alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes desaparecer {
+    0% {
+        width: 100vw;
+        height: 100vh;
+    }
+    100% {
+        width: 0vw;
+        height: 0vh;
+    }
+}
+div#a1 {
+    margin: 2px;
+    width: 10px;
+    animation-name: barra10;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes barra10 {
+    0% {background-color: rgb(183, 58, 194);
+        height: 1px;
+        }
+    100% {
+        background-color: rgb(6, 194, 228);
+        height: 20px;
+    }
+}
+div#b1 {
+margin: 2px;
+width: 10px;
+animation-name: barra11;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes barra11 {
+0% {background-color: blue;
+    height: 1px;
+    }
+100% {
+    background-color: purple;
+    height: 30px;
+}
+}
+div#c1 {
+margin: 2px;
+width: 10px;
+animation-name: barra12;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes barra12 {
+0% {background-color: rgb(117, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(196, 8, 196);
+    height: 10px;
+}     
+}
+div#a {
+    margin: 2px;
+    width: 10px;
+    animation-name: barra2;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes barra2 {
+    0% {background-color: rgb(183, 58, 194);
+        height: 1px;
+        }
+    100% {
+        background-color: rgb(6, 194, 228);
+        height: 50px;
+    }
+}
+div#b {
+margin: 2px;
+width: 10px;
+animation-name: barra;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes barra {
+0% {background-color: blue;
+    height: 1px;
+    }
+100% {
+    background-color: purple;
+    height: 60px;
+}
+}
+div#c {
+margin: 2px;
+width: 10px;
+animation-name: barra2;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes barra2 {
+0% {background-color: rgb(117, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(196, 8, 196);
+    height: 20px;
+}     
+}
+div#d {
+margin: 2px;
+width: 10px;
+animation-name: barra3;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes barra3 {
+0% {background-color: blue;
+    height: 1px;
+    }
+100% {
+    background-color: purple;
+    height: 70px;
+}
+}
+div#e {
+margin: 2px;
+width: 10px;
+animation-name: barra4;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes barra4 {
+0% {background-color: rgb(117, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(196, 8, 196);
+    height: 50px;
+}     
+}
+div#g {
+margin: 2px;
+width: 10px;
+animation-name: barra5;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes barra5 {
+0% {background-color: blue;
+    height: 1px;
+    }
+100% {
+    background-color: purple;
+    height: 70px;
+}
+}
+div#f {
+margin: 2px;
+width: 10px;
+animation-name: barra6;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse
+}
+@keyframes barra6 {
+0% {background-color: rgb(183, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(6, 194, 228);
+    height: 40px;
+}
+}
+div#h {
+margin: 2px;
+width: 10px;
+animation-name: barra7;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes barra7 {
+0% {background-color: blue;
+    height: 1px;
+    }
+100% {
+    background-color: purple;
+    height: 70px;
+}     
+}
+div#i {
+margin: 2px;
+width: 10px;
+animation-name: barra8;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse
+}
+@keyframes barra8 {
+0% {background-color: rgb(183, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(6, 194, 228);
+    height: 30px;
+}
+}
+div#j {
+margin: 2px;
+width: 10px;
+animation-name: barra13;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate
+}
+@keyframes barra13 {
+0% {background-color: rgb(183, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(6, 194, 228);
+    height: 20px;
+}
+}
+div#k {
+margin: 2px;
+width: 10px;
+animation-name: barra14;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate
+}
+@keyframes barra14 {
+0% {background-color: blue;
+    height: 1px;
+    }
+100% {
+    background-color: purple;
+    height: 30px;
+}
+}
+div#l {
+margin: 2px;
+width: 10px;
+animation-name: barra15;
+animation-duration: 0.3s;
+animation-iteration-count: infinite;
+animation-direction: alternate
+}
+@keyframes barra15 {
+0% {background-color: rgb(183, 58, 194);
+    height: 1px;
+    }
+100% {
+    background-color: rgb(6, 194, 228);
+    height: 10px;
+}
+}

@@ -1,0 +1,101 @@
+/* Por arreglar... Los botones, arreglar la posicion de las cartas */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Resource/Background.jpg);
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px 0px 32px 0px;
+}
+.menu {
+    /* border: 1px solid black; */
+    width: 1272px;
+    margin: 0 auto 32px auto;
+}
+main article {
+    display: inline-block;
+}
+
+.card {
+    margin: 20px 20px;
+    background-image: url(./Resource/Backgroundcard.png);
+    /* border: 1px solid black; */
+    padding: 20px 40px 40px 40px;
+    border-radius: 20px;
+    width: 380px;
+    height: 680px;
+    box-shadow: 0px 3px 7px #0a0a0a;
+}
+
+.photo {
+    width: 289px;
+    height: 320px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    overflow: hidden;
+}
+#photo3 {
+    object-position: 20% 50%;
+    overflow: hidden;
+}
+
+.name{
+    text-align: center;
+    font-family:'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+article ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.imagelist {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    text-align: center;   
+    padding: 24px 0;
+    font-family: 'inter', 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
+}
+
+.review {
+    text-align: center;
+    padding: 24px 0;
+    font-family: 'inter', 'Franklin Gothic regular', 'Arial Narrow', Arial, sans-serif;
+}
+
+.send {
+    padding: 2px;
+    width: 100%;
+    font-family: 'inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+span{
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 3px;
+}
+
+.userButton {
+    padding-right: 8px;
+    padding-left: 2px;
+}
